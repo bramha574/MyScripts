@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#This script will monitor the disk usage and accordingly you can set the cron jobs.
+
+df -H | grep -vE '^Filesystem|tmpfs|cdrom' | awk '{ print $5 " " $1 }' | while read output;
+do
+  echo $output
+  usedspace=$(echo $output | awk '{ print $1}' | cut -d'%' -f1  )
+  partition=$(echo $output | awk '{ print $2 }' )
+  if [ $usedspace -ge 80 ]; then
+    echo "Running out of space \"$partition ($usedspace%)\" on $(hostname) as on $(date)" |
+     mail -s "Alert: Almost out of disk space $usep%" you@somewhere.com
+  fi
+done
