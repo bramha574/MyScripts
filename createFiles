@@ -4,7 +4,7 @@ while :
 do
 
         timestamp=$( date +%s )
-        newfile=bperror-`echo $timestamp`.out
+        newfile=filename`echo $timestamp`
         touch /tmp/logs/$newfile
 
         if [ $? == 0 ]; then
