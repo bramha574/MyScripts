@@ -1,0 +1,17 @@
+#Script to create temp files for every 10 seconds
+
+while :
+do
+
+        timestamp=$( date +%s )
+        newfile=bperror-`echo $timestamp`.out
+        touch newfiles/$newfile
+
+        if [ $? == 0 ]; then
+                echo "$newfile -- File Created"
+        else
+                echo "$newfile -- File Creation Failed"
+        fi
+
+        sleep 10
+done
