@@ -5,7 +5,7 @@ do
 
         timestamp=$( date +%s )
         newfile=bperror-`echo $timestamp`.out
-        touch newfiles/$newfile
+        touch /tmp/logs/$newfile
 
         if [ $? == 0 ]; then
                 echo "$newfile -- File Created"
@@ -15,3 +15,5 @@ do
 
         sleep 10
 done
+
+
