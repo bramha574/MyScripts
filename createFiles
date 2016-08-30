@@ -16,4 +16,5 @@ do
         sleep 10
 done
 
+# Ctrl + C to stop the execution of process. 
 
