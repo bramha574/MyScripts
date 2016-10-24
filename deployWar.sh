@@ -1,3 +1,6 @@
+
+# Bash Script to deploy war file onto tomcat
+
 TOMCATLOC="apache-tomcat-6"    # path of tomcat directory
 WAR_FILE=$1                     # argument that has to contain war file.
 
