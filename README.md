@@ -11,6 +11,7 @@ we have
     monitorProcess.sh   -- To monitor the processes that are running.
     monitorDiskusage.sh -- To monitor the disk usage.
     createFiles         -- To create files for every 10 seconds. (Ctrl + C to stop the execution of the script.)
+    deployWar.sh        -- To deploy war files on to apache tomcat server.
 
 Accordingly you can set the cron jobs for these files.\
 
