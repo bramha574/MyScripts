@@ -24,4 +24,4 @@ else
 fi
 
 #Starting tomcat after deploying the war
-$TOMCATLOC/bin/startup.sh
+sh $TOMCATLOC/bin/startup.sh
