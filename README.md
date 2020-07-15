@@ -1,8 +1,5 @@
 # myBashScripts
-
-
-
-
+#new line goes here
 Daily using bash scripts for references.
 (Some scripts doesn't make any sense. But they are useful to have some hands on for beginners.)
 
