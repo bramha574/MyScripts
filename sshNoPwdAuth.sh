@@ -1,5 +1,7 @@
 #! /bin/bash
 
+
+
 filename="id_rsa"
 path="$HOME/.ssh"
 

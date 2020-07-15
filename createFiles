@@ -1,6 +1,10 @@
 #Script to create temp files for every 10 seconds
 #It doesn't make any sense. But if you wanna practice and play with shell scripting . it will help  :P
 
+
+
+
+
 while :
 do
 
