@@ -5,9 +5,7 @@ Daily using bash scripts for references.
 (Some scripts doesn't make any sense. But they are useful to have some hands on for beginners.)
 
 
-As of now, 
-
-we have
+As of now, we have
 
     monitorProcess.sh   -- To monitor the processes that are running.
     monitorDiskusage.sh -- To monitor the disk usage.
