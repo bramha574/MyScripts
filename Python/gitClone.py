@@ -1,5 +1,7 @@
 #! /usr/bin/env python3
 
+#install git module - pip install gitpython
+
 from git import Repo
 import os
 import shutil
